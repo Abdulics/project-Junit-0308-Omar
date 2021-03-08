@@ -12,7 +12,7 @@ public class TestComputation_CsvFileSource {
    public void testGetDiscount(int input1, int input2, int expected) throws Exception {
 
 	  Computation com = new Computation();
-      int result = 0; 
+      int result = com.getDiscount(input1,input2); 
       Assert.assertEquals(result, expected);
 
    }
